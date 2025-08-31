@@ -1,12 +1,39 @@
-# React + Vite
+# 🛒 Voice Command Shopping Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimalist, voice-activated shopping list manager with smart suggestions, built as a technical assessment for a Software Engineer position.  
+Designed to be **intuitive, mobile-optimized, and voice-first**.
 
-Currently, two official plugins are available:
+## 🚀 Live Application
+👉 [Try it here](https://online-voice-shopping-assistant.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
+- 🎤 **Voice Command Recognition** – Add, remove, and manage items on your shopping list using natural voice commands.  
+- 🌐 **Multilingual Support** – Works with **English & Hindi** commands, with a smart Hindi-to-English normalization layer.  
+- 🔢 **Quantity Management** – Specify quantities via voice (e.g., *"Add five milk"*, *"Remove one bread"*).  
+- 💡 **Smart Suggestions** – Product recommendations, seasonal suggestions, and substitutes (mock data).  
+- 📂 **Automatic Categorization** – Items categorized (e.g., *Dairy*, *Produce*) for an organized shopping list.  
+- 🔍 **Voice-Activated Search** – Search products by voice, including **brand** or **price range**.  
+- 👀 **Visual Feedback** – Real-time confirmation messages and button state changes while listening.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+- **Frontend:** React  
+- **State Management:** Zustand  
+- **Voice Recognition:** Web Speech API (native browser API)  
+- **Styling:** CSS Modules  
+- **Deployment:** Vercel  
+
+---
+
+## 📌 What It Does
+The app provides a **hands-free shopping list experience**:  
+1. Click **Start Listening**  
+2. Speak your command  
+3. The app updates your shopping list instantly and provides suggestions/search results.  
+
+The **multilingual support** ensures accessibility for a wider range of users.  
+
+---
